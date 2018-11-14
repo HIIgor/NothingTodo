@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		E79BA94F219BC98500DCE900 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E79BA94E219BC98500DCE900 /* main.m */; };
+		E79BA959219BCA8B00DCE900 /* NothingStack.m in Sources */ = {isa = PBXBuildFile; fileRef = E79BA958219BCA8B00DCE900 /* NothingStack.m */; };
+		E79BA95C219BD1C900DCE900 /* NothingQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E79BA95B219BD1C900DCE900 /* NothingQueue.m */; };
+		E79BA95F219BF8F100DCE900 /* NothingLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E79BA95E219BF8F100DCE900 /* NothingLNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,13 @@
 /* Begin PBXFileReference section */
 		E79BA94B219BC98500DCE900 /* nothing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = nothing; sourceTree = BUILT_PRODUCTS_DIR; };
 		E79BA94E219BC98500DCE900 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E79BA956219BCA3900DCE900 /* NothingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NothingHeader.h; sourceTree = "<group>"; };
+		E79BA957219BCA8B00DCE900 /* NothingStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NothingStack.h; sourceTree = "<group>"; };
+		E79BA958219BCA8B00DCE900 /* NothingStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NothingStack.m; sourceTree = "<group>"; };
+		E79BA95A219BD1C900DCE900 /* NothingQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NothingQueue.h; sourceTree = "<group>"; };
+		E79BA95B219BD1C900DCE900 /* NothingQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NothingQueue.m; sourceTree = "<group>"; };
+		E79BA95D219BF8F100DCE900 /* NothingLNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NothingLNode.h; sourceTree = "<group>"; };
+		E79BA95E219BF8F100DCE900 /* NothingLNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NothingLNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				E79BA94E219BC98500DCE900 /* main.m */,
+				E79BA956219BCA3900DCE900 /* NothingHeader.h */,
+				E79BA957219BCA8B00DCE900 /* NothingStack.h */,
+				E79BA958219BCA8B00DCE900 /* NothingStack.m */,
+				E79BA95A219BD1C900DCE900 /* NothingQueue.h */,
+				E79BA95B219BD1C900DCE900 /* NothingQueue.m */,
+				E79BA95D219BF8F100DCE900 /* NothingLNode.h */,
+				E79BA95E219BF8F100DCE900 /* NothingLNode.m */,
 			);
 			path = nothing;
 			sourceTree = "<group>";
@@ -118,6 +135,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E79BA959219BCA8B00DCE900 /* NothingStack.m in Sources */,
+				E79BA95C219BD1C900DCE900 /* NothingQueue.m in Sources */,
+				E79BA95F219BF8F100DCE900 /* NothingLNode.m in Sources */,
 				E79BA94F219BC98500DCE900 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,16 +259,20 @@
 		E79BA953219BC98500DCE900 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		E79BA954219BC98500DCE900 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

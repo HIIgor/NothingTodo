@@ -2,16 +2,24 @@
 //  main.m
 //  nothing
 //
-//  Created by 向亚国 on 2018/11/14.
+//  Created by HiIgor on 2018/11/14.
 //  Copyright © 2018年 HiIgor. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import "NothingQueue.h"
+#import "NothingStack.h"
+#import "NothingLNode.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        
+        [NothingQueue test];
+        
+        [NothingStack test];
+        
+        [NothingLNode test];
     }
     return 0;
 }
