@@ -1,8 +1,8 @@
 //
-//  NothingLNode.h
+//  NothingBinaryTreeNode.h
 //  nothing
 //
-//  Created by HiIgor on 2018/11/14.
+//  Created by 向亚国 on 2018/11/14.
 //  Copyright © 2018年 HiIgor. All rights reserved.
 //
 
@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NothingLNode : NSObject <LinkNodeProtocol, TestingProtocol>
+@interface NothingBinaryTreeNode : NSObject <TreeNodeProtocol, TestingProtocol>
 
 @end
 

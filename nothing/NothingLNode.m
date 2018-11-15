@@ -32,12 +32,14 @@
     }
     [head print];
     
+    //================================= 单链表翻转 ===================================
     /* 10->9->8->7->6->5->4->3->2->1 */
     id <LinkNodeProtocol> newHead = [head recursiveReverse];
     [newHead print];
     
     id <LinkNodeProtocol> newHead1 = [newHead reverse];
     [newHead1 print];
+    //==============================================================================
 }
 
 // 非递归实现链表翻转
@@ -47,6 +49,11 @@
         return node;
     }
     
+    /*
+     多个指针位置
+     一个用来保存断裂重连之后，上一个节点 newHead
+     一个用来不断向前进行 p
+     */
     id <LinkNodeProtocol> p = node, newHead = nil;
     while (p) {
         id <LinkNodeProtocol> t = p.next;

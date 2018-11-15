@@ -10,16 +10,19 @@
 #import "NothingQueue.h"
 #import "NothingStack.h"
 #import "NothingLNode.h"
+#import "NothingBinaryTreeNode.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         
         [NothingQueue test];
-        
+
         [NothingStack test];
-        
+
         [NothingLNode test];
+        
+        [NothingBinaryTreeNode test];
     }
     return 0;
 }
